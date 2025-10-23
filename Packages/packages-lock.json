@@ -1,12 +1,11 @@
 {
   "dependencies": {
-    "com.unity.multiplayer.center": {
-      "version": "1.0.0",
+    "com.dreamtapir.unity-container": {
+      "version": "https://github.com/DreamTapir/UnityContainer.git?path=Packages/UnityContainer",
       "depth": 0,
-      "source": "builtin",
-      "dependencies": {
-        "com.unity.modules.uielements": "1.0.0"
-      }
+      "source": "git",
+      "dependencies": {},
+      "hash": "5bf77af80bb21a7341d74aba1f0e823a089c836c"
     },
     "com.unity.modules.accessibility": {
       "version": "1.0.0",
@@ -156,7 +155,8 @@
         "com.unity.modules.ui": "1.0.0",
         "com.unity.modules.imgui": "1.0.0",
         "com.unity.modules.jsonserialize": "1.0.0",
-        "com.unity.modules.hierarchycore": "1.0.0"
+        "com.unity.modules.hierarchycore": "1.0.0",
+        "com.unity.modules.physics": "1.0.0"
       }
     },
     "com.unity.modules.umbra": {
